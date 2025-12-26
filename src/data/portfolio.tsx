@@ -53,15 +53,19 @@ export const portfolio = {
     skills: [
         {
             title: { es: "Frontend", en: "Frontend" },
-            items: ["React", "Next.js", "TypeScript", "TailwindCSS", "Framer Motion", "Three.js"]
+            items: ["React", "Next.js", "TypeScript", "TailwindCSS"]
         },
         {
             title: { es: "Backend", en: "Backend" },
-            items: ["Node.js", "Express", "PostgreSQL", "Prisma", "Supabase", "GraphQL"]
+            items: ["Node.js", "PostgreSQL", "MySQL", "Firebase"]
+        },
+        {
+            title: { es: "Desarrollo de Aplicaciones", en: "App Development" },
+            items: ["Java", "React Native"]
         },
         {
             title: { es: "IA & Herramientas", en: "AI & Tools" },
-            items: ["OpenAI API", "Hugging Face", "Vercel", "Docker", "Git", "Figma"]
+            items: ["ChatGPT", "Gemini", "DeepSeek", "Perplexity", "Claude", "Antigravity", "Google Ai Studio"]
         },
         {
             title: { es: "Lenguajes Programación", en: "Programming Languages" },

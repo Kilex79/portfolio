@@ -2,9 +2,11 @@
 
 import { motion } from "framer-motion";
 import { useTranslation } from "@/hooks/use-translation";
+import { useGithubData } from "@/hooks/use-github-data";
 
 export function About() {
-    const { t } = useTranslation();
+    const { t, language } = useTranslation();
+    const { user } = useGithubData();
 
     return (
         <section id="about" className="py-20 relative">
@@ -47,7 +49,11 @@ export function About() {
                             </div>
                             <div className="flex justify-between items-center border-b border-foreground/10 pb-4">
                                 <span className="font-semibold text-foreground">{t.about.stats.projects}</span>
-                                <span className="text-accent">{t.about.stats.count}</span>
+                                <span className="text-accent">
+                                    {user?.public_repos
+                                        ? `${user.public_repos} ${language === 'es' ? 'Repos Públicos' : 'Public Repos'}`
+                                        : t.about.stats.count}
+                                </span>
                             </div>
                             <div className="flex justify-between items-center border-b border-foreground/10 pb-4">
                                 <span className="font-semibold text-foreground">{t.about.stats.clients}</span>
