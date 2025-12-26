@@ -70,7 +70,7 @@ export function Navbar() {
                                 <div className="relative" ref={langMenuRef}>
                                     <button
                                         onClick={() => setIsLangOpen(!isLangOpen)}
-                                        className="p-2 hover:bg-foreground/5 rounded-full transition-colors flex items-center gap-1 font-medium text-xs border border-foreground/5"
+                                        className="p-2 hover:bg-foreground/5 rounded-full transition-colors flex items-center gap-1 font-medium text-xs border border-foreground/5 cursor-pointer"
                                         aria-label="Toggle language menu"
                                     >
                                         <span className="text-lg leading-none">{languages.find(l => l.code === language)?.flag}</span>
@@ -94,7 +94,7 @@ export function Navbar() {
                                                             setIsLangOpen(false);
                                                         }}
                                                         className={cn(
-                                                            "w-full text-left px-4 py-2 text-sm flex items-center gap-2 hover:bg-foreground/5 transition-colors",
+                                                            "w-full text-left px-4 py-2 text-sm flex items-center gap-2 hover:bg-foreground/5 transition-colors cursor-pointer",
                                                             language === lang.code && "text-accent bg-accent/5"
                                                         )}
                                                     >
@@ -112,7 +112,7 @@ export function Navbar() {
 
                                 <button
                                     onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-                                    className="p-2 hover:bg-foreground/5 rounded-full transition-colors text-foreground/80 hover:text-foreground"
+                                    className="p-2 hover:bg-foreground/5 rounded-full transition-colors text-foreground/80 hover:text-foreground cursor-pointer"
                                     aria-label="Toggle theme"
                                 >
                                     {theme === "dark" ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
