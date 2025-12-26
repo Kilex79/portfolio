@@ -69,7 +69,7 @@ export const portfolio = {
         },
         {
             title: { es: "Lenguajes Programación", en: "Programming Languages" },
-            items: ["HTML", "CSS", "JavaScript", "Python", "Java", "C#", "React", "Next.js", "TypeScript", "TailwindCSS", "SQL"]
+            items: ["HTML", "CSS", "JavaScript", "Java", "React", "Next.js", "TypeScript", "TailwindCSS", "SQL"]
         },
         {
             title: { es: "Idiomas", en: "Languages" },
