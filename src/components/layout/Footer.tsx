@@ -1,6 +1,7 @@
 "use client";
 
-import { Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { Github, Linkedin, Mail, Instagram } from "lucide-react";
+import { portfolio } from "@/data/portfolio";
 import { useTranslation } from "@/hooks/use-translation";
 
 export function Footer() {
@@ -19,16 +20,34 @@ export function Footer() {
                 </div>
 
                 <div className="flex gap-6">
-                    <a href="#" className="text-muted-foreground hover:text-accent transition-colors">
+                    <a
+                        href={portfolio.social.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-muted-foreground hover:text-accent transition-colors"
+                    >
                         <Github className="w-5 h-5" />
                     </a>
-                    <a href="#" className="text-muted-foreground hover:text-accent transition-colors">
+                    <a
+                        href={portfolio.social.linkedin}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-muted-foreground hover:text-accent transition-colors"
+                    >
                         <Linkedin className="w-5 h-5" />
                     </a>
-                    <a href="#" className="text-muted-foreground hover:text-accent transition-colors">
-                        <Twitter className="w-5 h-5" />
+                    <a
+                        href={portfolio.social.instagram}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-muted-foreground hover:text-accent transition-colors"
+                    >
+                        <Instagram className="w-5 h-5" />
                     </a>
-                    <a href="#" className="text-muted-foreground hover:text-accent transition-colors">
+                    <a
+                        href={portfolio.social.email}
+                        className="text-muted-foreground hover:text-accent transition-colors"
+                    >
                         <Mail className="w-5 h-5" />
                     </a>
                 </div>

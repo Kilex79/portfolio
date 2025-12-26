@@ -38,12 +38,12 @@ export const portfolio = {
         },
         text: {
             es: [
-                "Soy un Desarrollador Frontend Junior apasionado por el diseño y con un impulso constante por crear experiencias digitales fluidas. Con una base sólida en tecnologías web modernas e implementando IA para mejorar la experiencia del usuario.",
+                "Mi nombre es Ismael, soy un Desarrollador Frontend Junior apasionado por el diseño y con un impulso constante por crear experiencias digitales fluidas. Con una base sólida en tecnologías web modernas e implementando IA para mejorar la experiencia del usuario.",
                 "Mi enfoque se centra en la escalabilidad, el rendimiento y el diseño centrado en el usuario. Creo que un gran sitio web no solo debe verse bien, sino que debe sentirse intuitivo y receptivo.",
                 "Cuando no estoy programando, estoy explorando lo último en IA o refinando mis habilidades de UI/UX para estar siempre a la vanguardia."
             ],
             en: [
-                "I am a passionate Junior Frontend Developer with a keen eye for design and a drive for creating seamless digital experiences. With a strong foundation in modern web technologies, I implement AI to improve user experience.",
+                "My name is Ismael, I am a passionate Junior Frontend Developer with a keen eye for design and a drive for creating seamless digital experiences. With a strong foundation in modern web technologies, I implement AI to improve user experience.",
                 "My approach focuses on scalability, performance, and user-centric design. I believe that a great website shouldn't just look good—it should feel intuitive and responsive.",
                 "When I'm not coding, I'm exploring the latest in AI or refining my UI/UX skills to stay ahead of the curve."
             ]
@@ -131,5 +131,12 @@ export const portfolio = {
             es: "Construyendo el futuro, pixel a pixel.",
             en: "Building the future, one pixel at a time."
         }
+    },
+
+    social: {
+        github: "https://github.com/Kilex79",
+        linkedin: "https://www.linkedin.com/in/ismael-torr%C3%BAs-4ba8b7312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        instagram: "https://www.instagram.com/ismot79?igsh=MW9tMnc4ODlxa2lmeg==",
+        email: "mailto:netsphere.dev.projects@gmail.com",
     }
 };
