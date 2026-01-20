@@ -18,7 +18,7 @@ export const portfolio = {
             en: "Available for work",
         },
         cvUrl: "/resume.pdf",
-        githubUser: "Kilex79" // change to your github username to auto-fetch data
+        githubUser: "ismat79" // change to your github username to auto-fetch data
     },
 
     nav: {
